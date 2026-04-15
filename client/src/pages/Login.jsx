@@ -21,6 +21,7 @@ export default function Login({ onLogin, initialMode = "login", mode }) {
   const [email, setEmail] = useState("");
   const [adminId, setAdminId] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const data = data
 
   const validatePassword = (pass) => {
     const minLength = 8;
